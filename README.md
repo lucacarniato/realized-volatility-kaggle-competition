@@ -12,7 +12,8 @@ For order book data the weighted average price (WAP) is used as the price of the
 
 <img src="https://latex.codecogs.com/svg.latex?WAP&space;=&space;\frac{BidPrice_{1}*AskSize_{1}&space;&plus;&space;AskPrice_{1}*BidSize_{1}}{BidSize_{1}&space;&plus;&space;AskSize_{1}}" title="WAP = \frac{BidPrice_{1}*AskSize_{1} + AskPrice_{1}*BidSize_{1}}{BidSize_{1} + AskSize_{1}}" /></a>
 
-Returns are widely used in finance, however, log returns are preferred whenever some mathematical modeling is required. Calling WAP\_t the WAP price of the stock at time \t, we can define the log return between t\_1 and t\_2 as:
+Returns are widely used in finance, however, log returns are preferred whenever some mathematical modeling is required. Calling <img src="https://latex.codecogs.com/svg.latex?WAP_t" title="WAP_t" /></a> the WAP price of the stock at time t, we can define the log return between <img src="https://latex.codecogs.com/svg.latex?t_1" title="t_1" /></a> and <img src="https://latex.codecogs.com/svg.latex?t_2" title="t_2" as:
+
 
 <img src="https://latex.codecogs.com/svg.latex?r_{t_1,&space;t_2}&space;=&space;\log&space;\left(&space;\frac{WAP_{t_2}}{WAP_{t_1}}&space;\right)" title="r_{t_1, t_2} = \log \left( \frac{WAP_{t_2}}{WAP_{t_1}} \right)" /></a>
 
