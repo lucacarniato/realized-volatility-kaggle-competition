@@ -13,6 +13,11 @@ For order book data the weighted average price (WAP) is used as the price of the
 $$ WAP = \frac{BidPrice_{1}*AskSize_{1} + AskPrice_{1}*BidSize_{1}}{BidSize_{1} + AskSize_{1}} $$
 
 Returns are widely used in finance, however, **log returns** are preferred whenever some mathematical modeling is required. Calling $WAP_t$ the WAP price of the stock at time $t$, we can define the log return between $t_1$ and $t_2$ as:
+
 $$
 r_{t_1, t_2} = \log \left( \frac{WAP_{t_2}}{WAP_{t_1}} \right)
 $$
+
+# Position on the leader board
+
+The root mean percent error on unseen data is 0.22046, which is better than 33\% of the competitors (3965 competitors)
