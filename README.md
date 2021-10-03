@@ -1,4 +1,4 @@
-# Realized volatility Kaggle competition
+# Realized volatility kaggle competition
 
 A solution of the [Optiver Realized Volatility Kaggle competition](https://www.kaggle.com/c/optiver-realized-volatility-prediction/data).
 
